@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="atvd.css">
+  </head>
+
+  <body>
+    <nav class="menu-principal">
+      <div id="elementos">
+        <a href="#secao1">Inicio</a>
+        <a href="#secao2">Projetos</a>
+        <a href="#secao3">Sobre</a>
+      </div>
+    </nav>
+
+    <div id="secao1">
+
+
+<br><br>
+
+      <div class="iconeperfil">
+    <img src="iconperfil.png">
+    </div>
+
+    <div class="informacoes">
+      <h1>Murilo Santiago</h1>
+      <h2>Desenvolvedor Web</h2>
+      <p> OI gentiiiir, aq é meu portfoliozinho ta boum UwU? sou cute cute kawai</p>
+    </div>
+
+    <button id="meucurriculo">Meu currículo</button>
+
+    </div>
+
+    <div id="secao2">
+                    <h2>Projetos</h2>
+                    <p>Alguns trabalhos que desenvolvi: </p>
+
+                    <div id="portfolio">
+                        <h2>🌐 Portfólio Pessoal</h2>
+                        <p>Meu site de apresentação profissional com informações e projetos.</p>
+                        <a href="#">
+                            <button class="button1">Ver projeto</button>
+                        </a>
+                    </div>
+
+                    <div id="loja">
+                        <h2>🛒 Loja Virtual</h2>
+                        <p>Protótipo de e-commerce com carrinho de compras e JavaScript.</p>
+                        <a href="#">
+                            <button class="button2">Ver projeto</button>
+                        </a>
+                    </div>
+
+                    <div id="dashboard">
+                        <h2>📊 Dashboard de Dados</h2>
+                        <p>Painel interativo para visualização de métricas e gráficos.</p>
+                        <a href="#">
+                            <button class="button3">Ver projeto</button>
+                        </a>
+                    </div>
+                </div>
+    </div>
+
+    <div id="secao3">
+      <h1>Contato</h1>
+      <p>Entre em contato comigo pelo WhatsApp preenchendo o formulário abaixo:</p>
+
+      <form id="whatsappForm">
+        <input type="text" name="nome" class="seunome" placeholder="Seu nome" id="nome"> <br><br>
+        <input type="text" name="email" class="seuemail" placeholder="Seu E-mail" id="email"> <br><br>
+        <input type="text" name="mensagem" class="suamensagem" placeholder="Digite sua mensagem" id="mensagem"> <br><br>
+        <button type="submit" class="enviarnozap">Enviar no WhatsApp</button>
+    </form>
+
+<br><br><br>
+
+<div class="mesiganasredes">
+        <h3>Me siga nas redes sociais:</h2>
+        <a href="https://www.youtube.com/@NaldoCanal">Youtube</a>
+        <a href="https://www.facebook.com/nikolasferreiradm/?locale=pt_BR">Facebook</a>
+        <a href="https://www.instagram.com/lulaoficial/">Instagram</a>
+        </div>
+
+        <script>
+            document.getElementById("whatsappForm").addEventListener("submit", function (e) { e.preventDefault();
+            const nome = document.getElementById("nome").value;
+            const email = document.getElementById("email").value;
+            const mensagem = document.getElementById("mensagem").value;
+
+            const texto = `Oi, meu nome é ${nome} ${email} e gostaria de falar: ${mensagem}`;
+            const url = `https://wa.me/552799999999?text=${encodeURIComponent(texto)}`;
+
+            window.open(url,"_blank")
+        });
+
+
+        </script>
+
+      </div>
+    </div>
+
+    
+      </body>
+</html>
