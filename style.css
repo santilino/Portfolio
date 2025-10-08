@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.menu-principal {
+  background-color: #333;
+  padding: 16px;
+  gap: 32px;
+  justify-items: center;
+  position: fixed;
+  width: 100%;
+
+}
+
+#elementos a {
+  color: white;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 14px;
+  transition: background-color 0.4s;
+  text-align: center;
+  align-items: center;
+  display: inline;
+  justify-content: center;
+}
+
+#elementos a:hover {
+  background-color: #555;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  padding: 2rem 1rem 1rem 1rem;
+  color: #333;
+  text-align: center;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#secao1 {
+  padding: 20px;
+  padding-bottom: 70%;
+}
+
+#secao3 {
+  padding: 20px;
+  padding-bottom: 70%;
+}
+
+#secao2 {
+  padding: 20px;
+  padding-bottom: 70%;
+}
+
+img{
+  width: 400px;
+  align-items: center;
+  margin-left: 730px;
+}
+
+.informacoes h1{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -60px;
+
+}
+
+.informacoes h2{
+  text-align: center;
+  margin-top: -60px;
+  margin-right: ;
+}
+
+.informacoes p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#meucurriculo{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 0 ;
+  border-radius: 30px;
+  background-color: gray;
+  margin-left: 800px;
+  margin-top: 10px;
+  width: 250px;
+  font-size: 30px;
+}
+
+button:hover{
+  color: lightgreen;
+}
+
+#secao2{
+    padding: 110px;
+    padding-bottom: 70%;
+    background-color: #f0eeee;
+    text-align: center;
+}
+
+#secao2 p{
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#portfolio{
+    background-color: white;
+    padding: 17px;
+    border-radius: 12px;
+    width: 425px;
+    height: 225px;
+    margin: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+}
+
+#portfolio h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.button1{
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 8px solid #333;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 175px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.button1:hover{
+    transform: translateY(-5px);
+}
+
+#loja{
+    background-color: white;
+    padding: 17px;
+    border-radius: 12px;
+    width: 425px;
+    height: 225px;
+    margin: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+}
+
+#loja h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.button2{
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 8px solid #333;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 175px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.button2:hover{
+    transform: translateY(-5px);
+}
+
+#dashboard{
+    background-color: white;
+    padding: 17px;  
+    border-radius: 12px;
+    width: 425px;
+    height: 225px;
+    margin: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    margin-left: 300px;
+}
+
+#dashboard h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.button3{
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border: 8px solid #333;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 175px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+    transition: 0.3s;
+}
+
+.button3:hover{
+    transform: translateY(-5px);
+}
+
+#whatsappForm{
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 20px;
+}
+
+.seunome{
+      width: 50%;
+      height: 50px;
+      border-radius: 10px;
+}
+
+.seuemail{
+      width: 50%;
+      height: 50px;
+      border-radius: 10px;
+
+}
+
+.suamensagem{
+     width: 50%;
+     height: 150px;
+     border-radius: 5px;
+     border-color: black;
+}
+
+#secao3 p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#secao3 h1{
+    margin-top: 100px;
+}
+
+#secao3{
+    background-color: #b5b5b5;
+}
+
+.enviarnozap{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.mesiganasredes{
+    text-align: center;
+}
